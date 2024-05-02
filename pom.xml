@@ -70,5 +70,6 @@
 	  <name>snapshot</name>
       <url>http://100.26.142.188:8081/repository/maven-snapshots/</url>
    </repository>
-  </distributionManagement>
+ </distributionManagement>
+ 
 </project>
