@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>hi</groupId>
-  <artifactId>bro</artifactId>
+  <groupId>demo</groupId>
+  <artifactId>ks</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
@@ -64,19 +64,11 @@
       </plugins>
     </pluginManagement>
   </build>
-    <distributionManagement>
-    <repository>
-      <name>deployment</name>
-      <id>snapshot</id>
-      <url>
-    </pluginManagement>
-  </build>
-    <distributionManagement>
-    <repository>
-      <name>deployment</name>
-      <id>snapshot</id>
-      <url>http://100.25.199.139:8081/repository/maven-snapshots/</url>
-    </repository>
-    </distributionManagement>
-
+  <distributionManagement>
+   <repository>
+      <id>deployment</id>
+	  <name>snapshot</name>
+      <url>http://52.91.120.26:8081/repository/maven-snapshots/</url>
+   </repository>
+</distributionManagement>
 </project>
